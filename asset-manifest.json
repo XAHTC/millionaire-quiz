@@ -7,7 +7,7 @@
     "runtime-main.js.map": "/static/js/runtime-main.4c65daf4.js.map",
     "static/js/2.b35eccf6.chunk.js": "/static/js/2.b35eccf6.chunk.js",
     "static/js/2.b35eccf6.chunk.js.map": "/static/js/2.b35eccf6.chunk.js.map",
-    "index.html": "/index.html",
+    "index.html": "test-app/index.html",
     "static/css/main.25e46fa6.chunk.css.map": "/static/css/main.25e46fa6.chunk.css.map",
     "static/js/2.b35eccf6.chunk.js.LICENSE.txt": "/static/js/2.b35eccf6.chunk.js.LICENSE.txt",
     "static/media/hand.86eff2ed.svg": "/static/media/hand.86eff2ed.svg"
