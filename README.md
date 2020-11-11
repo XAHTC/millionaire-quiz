@@ -1,4 +1,4 @@
-You can check demo version here: [DEMO](http://xahtc.github.io/test-app)
+You can check demo version here: #[DEMO](http://xahtc.github.io/test-app)
 
 # Getting Started with Create React App
 
