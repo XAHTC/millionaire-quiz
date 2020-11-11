@@ -1,0 +1,8 @@
+.appWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ffffff 50%, #FFF3EB 50%);
+}

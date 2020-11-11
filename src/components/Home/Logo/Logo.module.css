@@ -1,0 +1,10 @@
+.image img {
+    display: block;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}

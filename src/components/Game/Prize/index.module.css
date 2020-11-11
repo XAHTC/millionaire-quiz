@@ -1,0 +1,128 @@
+.prizeWrapper {
+    display: flex;
+}
+
+.prizeContainer {
+    position: relative;
+    width: 100%;
+}
+
+.prizeContainer:last-child {
+    margin-bottom: 0;
+}
+
+.prizeContainer::before, .prizeContainer::after {
+    background: #D0D0D8;
+    content: '';
+    width: 10.5%;
+    height: 1px;
+    position: absolute;
+    top: calc(50% - 0px / 2);
+}
+
+.prizeContainer::before {
+    left: -12.5%;
+}
+
+.prizeContainer::after {
+    right: -12.5%;
+}
+
+.prize {
+    position: relative;
+    display: block;
+    background: transparent;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.prize span {
+    position: relative;
+    z-index: 100;
+}
+
+.prize:before,
+.prize:after {
+    width: 100%;
+    left: 0;
+    height: 20px;
+    z-index: 0;
+}
+
+.prize:after {
+    position: absolute;
+    top: 21px;
+    content: '';
+    transform: perspective(15px) rotateX(-3deg);
+}
+
+.prize:before {
+    position: absolute;
+    content: '';
+    border-bottom: none;
+    transform: perspective(15px) rotateX(3deg);
+}
+
+.prize:before,
+.prize:after {
+    border: 1px solid #D0D0D8;
+}
+
+.prize:before {
+    border-bottom: none;
+}
+
+.prize:after {
+    border-top: none;
+}
+
+.answered {
+    color: #D0D0D8
+}
+
+.prizeCurrent {
+    color: #FF8B37;
+}
+
+.prizeContainerCurrent::before,
+.prizeContainerCurrent::after {
+    background-color: #FF8B37;
+}
+
+.prizeCurrent::before,
+.prizeCurrent::after {
+    border-color: #FF8B37;
+}
+
+@media (max-width: 768px) {
+    .prizeC {
+        height: 32px;
+        margin: 5px auto;
+        max-width: 80%;
+    }
+
+    .prizeC::before {
+        left: -12%;
+    }
+
+    .prize {
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .prize:before,
+    .prize:after {
+        height: 16px;
+    }
+
+    .prize:after {
+        top: 16px;
+    }
+
+    .prizeWrapper {
+        width: 100%;
+    }
+}
